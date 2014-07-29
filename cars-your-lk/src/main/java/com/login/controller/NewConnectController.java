@@ -18,5 +18,6 @@ public class NewConnectController extends ConnectController {
     @Autowired
     public NewConnectController(ConnectionFactoryLocator connectionFactoryLocator, ConnectionRepository connectionRepository) {
         super(connectionFactoryLocator, connectionRepository);
+
     }
 }
