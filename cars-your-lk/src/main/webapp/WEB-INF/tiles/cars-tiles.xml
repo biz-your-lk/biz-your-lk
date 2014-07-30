@@ -28,15 +28,6 @@
         <put-attribute name="footer" value="/WEB-INF/jsp/templates/carsFooter.jsp"/>
     </definition>
 
-    <definition name=".portal.home.chd.mainTemplate" template="/WEB-INF/jsp/templates/carsHomePageLayout.jsp">
-        <put-attribute name="header" value="/WEB-INF/jsp/portal/template/chd/portalHeader.jsp"/>
-        <put-attribute name="mainMenu" value="/WEB-INF/jsp/portal/template/chd/portalMainMenu.jsp"/>
-        <!--<put-attribute name="ticker" value="/WEB-INF/jsp/portal/template/stockTicker.jsp" />-->
-        <put-attribute name="narrowSidebar" value="/WEB-INF/jsp/portal/template/chd/portalHomeNarrowSidebar.jsp"/>
-        <put-attribute name="content" value="/WEB-INF/jsp/common/blank.jsp"/>
-        <put-attribute name="wideSidebar" value="/WEB-INF/jsp/portal/template/chd/portalHomeWideSidebar.jsp"/>
-        <put-attribute name="footer" value="/WEB-INF/jsp/portal/template/chd/portalFooter.jsp"/>
-        <put-attribute name="bottomDock" value="/WEB-INF/jsp/portal/template/chd/portalBottomDock.jsp"/>
-    </definition>
+
 
 </tiles-definitions>

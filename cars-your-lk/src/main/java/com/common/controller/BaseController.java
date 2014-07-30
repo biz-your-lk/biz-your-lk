@@ -20,4 +20,25 @@ public interface BaseController {
      * @param mainMenu
      */
     public void setMainMenu(ModelMap model, MainMenu mainMenu);
+
+    /**
+     * set the meta description key for the model
+     * @param model
+     * @param metaDecKey
+     */
+    public void setMetaDescription(ModelMap model, String metaDecKey);
+
+    /**
+     * set the meta keywords key for the model.
+     * @param model
+     * @param metaKeywordsKey
+     */
+    public void setMetaKeywords(ModelMap model, String metaKeywordsKey);
+
+    /**
+     * Set the dynamic title for page
+     * @param model
+     * @param titleKey
+     */
+    public void setTitle(ModelMap model, String titleKey);
 }

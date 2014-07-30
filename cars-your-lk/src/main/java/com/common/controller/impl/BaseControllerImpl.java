@@ -16,4 +16,16 @@ public class BaseControllerImpl implements BaseController {
     public void setMainMenu(ModelMap model, MainMenu mainMenu) {
         model.addAttribute("mainMenu", mainMenu.toString());
     }
+
+    public void setMetaDescription(ModelMap model, String metaDecKey) {
+        model.addAttribute("metaDescription", metaDecKey);
+    }
+
+    public void setMetaKeywords(ModelMap model, String metaKeywordsKey) {
+        model.addAttribute("metaKeywords", metaKeywordsKey);
+    }
+
+    public void setTitle(ModelMap model, String titleKey) {
+        model.addAttribute("title", titleKey);
+    }
 }

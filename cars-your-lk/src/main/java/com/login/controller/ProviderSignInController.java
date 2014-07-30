@@ -13,6 +13,10 @@ import org.springframework.stereotype.Controller;
  * Time: 6:10 PM
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * This is the controller handle all the request in the process of signin through Social Providers
+ */
 @Controller
 public class ProviderSignInController extends org.springframework.social.connect.web.ProviderSignInController {
 
